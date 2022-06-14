@@ -2137,8 +2137,9 @@ input, select, textarea {
 
 				#nav > ul > li > a, #nav > ul > li > span {
 					display: block;
-					color: #eee;
-					color: rgba(255, 255, 255, 0.75);
+					/*color: #eee;*/
+					color: #000;
+					color: rgba(0, 0, 0, 0.75);
 					text-transform: uppercase;
 					text-decoration: none;
 					font-size: 0.7em;
@@ -2154,11 +2155,13 @@ input, select, textarea {
 				}
 
 				#nav > ul > li:hover > a {
-					color: #fff;
+					/*color: #fff;*/
+					color: #000;
 				}
 
 				#nav > ul > li.active > a, #nav > ul > li.active > span {
-					color: #fff;
+					/*color: #fff;*/
+					color: #000;
 				}
 
 	.dropotron {
