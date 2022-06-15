@@ -756,15 +756,15 @@
 		&.style1 {
 			background: #e97770 url('images/overlay.png');
 			color: #eee;
-			color: rgba(255, 255, 255, 0.75);
+			color: rgba(0, 0, 0, 0.75);
 
 			.title {
 				background: #e97770 url('images/overlay.png');
-				color: #fff;
+				color: #000;
 			}
 
 			h1, h2, h3, h4, h5, h6, strong, b, a {
-				color: #fff;
+				color: #000;
 			}
 		}
 
@@ -786,7 +786,7 @@
 			}
 
 			.image {
-				border: solid 10px #fff;
+				border: solid 10px #000;
 			}
 		}
 	}
