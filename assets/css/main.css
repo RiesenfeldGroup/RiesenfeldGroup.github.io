@@ -2010,19 +2010,19 @@ input, select, textarea {
 			background: #990000 url("images/overlay.png");
 			/* color: #000;
 			color: rgba(0, 0, 0, 0.75); */
-			color: #999999;
+			color: #cccccc;
 		}
 
 			.wrapper.style1 .title {
 				/* background: #e97770 url("images/overlay.png"); */
 				background: #990000 url("images/overlay.png");
 				/* color: #000; */
-				color: #999999;
+				color: #cccccc;
 			}
 
 			.wrapper.style1 h1, .wrapper.style1 h2, .wrapper.style1 h3, .wrapper.style1 h4, .wrapper.style1 h5, .wrapper.style1 h6, .wrapper.style1 strong, .wrapper.style1 b, .wrapper.style1 a {
 				/* color: #000; */
-				color: #999999;
+				color: #cccccc;
 			}
 
 		.wrapper.style2 {
