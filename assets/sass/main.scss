@@ -477,7 +477,8 @@
 
 		&.style2 {
 			background: none;
-			color: #606167;
+			/* color: #606167; */
+			color: #000000;
 			box-shadow: inset 0px 0px 2px 0px #a0a1a7;
 
 			&:hover {
@@ -762,7 +763,7 @@
 			background: #990000 url('images/overlay.png');
 			/* color: #eee;
 			color: rgba(0, 0, 0, 0.75); */
-			color: #999999
+			color: #999999;
 
 			.title {
 				/* background: #e97770 url('images/overlay.png'); */
@@ -782,7 +783,8 @@
 
 			.title {
 				background: #fff;
-				color: #484d55;
+				/* color: #484d55; */
+				color: #000000;
 			}
 		}
 

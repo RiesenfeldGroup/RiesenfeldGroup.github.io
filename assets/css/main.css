@@ -2010,7 +2010,7 @@ input, select, textarea {
 			background: #990000 url("images/overlay.png");
 			/* color: #000;
 			color: rgba(0, 0, 0, 0.75); */
-			color: #999999
+			color: #999999;
 		}
 
 			.wrapper.style1 .title {
@@ -2031,7 +2031,8 @@ input, select, textarea {
 
 			.wrapper.style2 .title {
 				background: #fff;
-				color: #484d55;
+				/* color: #484d55; */
+				color: #000000;
 			}
 
 		.wrapper.style3 {
