@@ -2015,7 +2015,7 @@ input, select, textarea {
 
 			.wrapper.style1 .title {
 				/* background: #e97770 url("images/overlay.png"); */
-				background: #990000
+				background: #990000 url("images/overlay.png");
 				/* color: #000; */
 				color: #999999;
 			}
