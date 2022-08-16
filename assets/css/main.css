@@ -2008,8 +2008,9 @@ input, select, textarea {
 		.wrapper.style1 {
 			/* background: #e97770 url("images/overlay.png"); */
 			background: #990000 url("images/overlay.png");
-			color: #000;
-			color: rgba(0, 0, 0, 0.75);
+			/* color: #000;
+			color: rgba(0, 0, 0, 0.75); */
+			color: #999999
 		}
 
 			.wrapper.style1 .title {
