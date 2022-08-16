@@ -1692,7 +1692,8 @@ input, select, textarea {
 			input[type="reset"].style1:active,
 			button.style1:active,
 			.button.style1:active {
-				background-color: #d96760;
+				/* background-color: #d96760; */
+				background-color: #990000;
 			}
 
 		input[type="button"].style2,
@@ -2013,11 +2014,13 @@ input, select, textarea {
 
 			.wrapper.style1 .title {
 				background: #e97770 url("images/overlay.png");
-				color: #000;
+				/* color: #000; */
+				color: #999999;
 			}
 
 			.wrapper.style1 h1, .wrapper.style1 h2, .wrapper.style1 h3, .wrapper.style1 h4, .wrapper.style1 h5, .wrapper.style1 h6, .wrapper.style1 strong, .wrapper.style1 b, .wrapper.style1 a {
-				color: #000;
+				/* color: #000; */
+				color: #999999;
 			}
 
 		.wrapper.style2 {

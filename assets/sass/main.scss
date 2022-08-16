@@ -470,7 +470,8 @@
 			}
 
 			&:active {
-				background-color: #d96760;
+				/* background-color: #d96760; */
+				background-color: #990000;				
 			}
 		}
 
@@ -765,11 +766,13 @@
 			.title {
 				/* background: #e97770 url('images/overlay.png'); */
 				background: #990000 url('images/overlay.png');
-				color: #000;
+				/* color: #000; */
+				color: #999999;
 			}
 
 			h1, h2, h3, h4, h5, h6, strong, b, a {
-				color: #000;
+				/* color: #000; */
+				color: #999999;
 			}
 		}
 
