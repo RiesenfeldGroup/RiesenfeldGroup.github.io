@@ -103,7 +103,7 @@ for event in events:
 ### For index.html
 export_str = ""
 
-for date in event_dict.keys()[:n_displayed]:
+for date in list(event_dict.keys())[:n_displayed]:
 	month, year = date
 	month_str = months[month]
 	year_str = str(year)
