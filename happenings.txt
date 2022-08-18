@@ -16,14 +16,14 @@ END_EVENT
 BEGIN_EVENT
 	MONTH="4"
 	YEAR="2021"
-	DESCRIPTION="Samantha Riesenfeld is <a href=https://datascience.uchicago.edu/news/cdac-discovery-challenge-awardees-train-data-science-on-medicine-clean-water-and-education/>awarded</a> through the CDAC Discovery Challenge for the application of machine learning to targeted cancer therapy."
+	DESCRIPTION="Sam Riesenfeld is <a href=https://datascience.uchicago.edu/news/cdac-discovery-challenge-awardees-train-data-science-on-medicine-clean-water-and-education/>awarded</a> through the CDAC Discovery Challenge for the application of machine learning to targeted cancer therapy."
 END_EVENT
 
 # Cancer Research Foundation 2021
 BEGIN_EVENT
 	MONTH="3"
 	YEAR="2021"
-	DESCRIPTION="Samantha Riesenfeld is a <a href=https://pme.uchicago.edu/news/huanhuan-joyce-chen-and-samantha-riesenfeld-named-crf-young-investigators>recipient</a> of a Cancer Research Foundation Young Investigator Award for research in application of machine learning techniques to personalized cancer treatment."
+	DESCRIPTION="Sam Riesenfeld is a <a href=https://pme.uchicago.edu/news/huanhuan-joyce-chen-and-samantha-riesenfeld-named-crf-young-investigators>recipient</a> of a Cancer Research Foundation Young Investigator Award for research in application of machine learning techniques to personalized cancer treatment."
 END_EVENT
 
 # Welcome Joey
@@ -31,4 +31,95 @@ BEGIN_EVENT
 	MONTH="2"
 	YEAR="2022"
 	DESCRIPTION="The Riesenfeld Group warmly welcomes Joey Federico as a new member!"
+END_EVENT
+
+# Frank Grier Prize
+BEGIN_EVENT
+	MONTH="12"
+	YEAR="2021"
+	DESCRIPTION="Frank Gao is a finalist for the 2022 Institute for Biophysical Dynamics Grier Prize!"
+END_EVENT
+
+# Frank teaching prize
+BEGIN_EVENT
+	MONTH="5"
+	YEAR="2021"
+	DESCRIPTION="Frank Gao is <a href=https://physicalsciences.uchicago.edu/news/article/graduate-students-recognized-for-exceptional-teaching-of-undergraduates/>honored</a> with the 2020 Wayne C. Booth Prize for Excellence in Teaching."
+END_EVENT
+
+# Ryan Robinett MS
+BEGIN_EVENT
+	MONTH="6"
+	YEAR="2022"
+	DESCRIPTION="Ryan Robinett successfully defends his masters thesis on applications of manifold learning to single-cell transcriptomics."
+END_EVENT
+
+# Joy paper
+BEGIN_EVENT
+	MONTH="10"
+	YEAR="2021"
+	DESCRIPTION="Joy Sifakis and coauthors post a preprint exploring how <a href=https://www.biorxiv.org/content/10.1101/2021.10.28.466194v2>GATA4 regionalizes intestinal metabolism and barrier function to prevent immunopathology</a>."
+END_EVENT
+
+# Kyle and Alexis graduation
+BEGIN_EVENT
+	MONTH="6"
+	YEAR="2022"
+	DESCRIPTION="Congratulations to Kyle Ruark and Alexis Vitiello for earning their undergraduate degrees! They will be missed."
+END_EVENT
+
+# Kyle Harvard
+BEGIN_EVENT
+	MONTH="3"
+	YEAR="2022"
+	DESCRIPTION="Kyle Ruark is accepted to Harvard's PhD program in Bioengineering. We are very proud!"
+END_EVENT
+
+# Sam ILC Nature
+BEGIN_EVENT
+	MONTH="2"
+	YEAR="2021"
+	DESCRIPTION="Sam Riesenfeld is co-first and co-corresponding author on a <i>Nature</i> paper on skin innate lymphoid cells."
+END_EVENT
+
+# Hanna quals
+BEGIN_EVENT
+	MONTH="9"
+	YEAR="2021"
+	DESCRIPTION="Congratulations to Hanna Hieromnimon on passing her qualifying exam and achieving candidacy!"
+END_EVENT
+
+# Hope quals
+BEGIN_EVENT
+	MONTH="12"
+	YEAR="2021"
+	DESCRIPTION="Congratulations to Hope Anderson on passing her qualifying exam and achieving candidacy!"
+END_EVENT
+
+# Sam NeurIPS talk
+BEGIN_EVENT
+	MONTH="12"
+	YEAR="2020"
+	DESCRIPTION="Sam Riesenfeld speaks at the NeurIPS workshop Learning Meaningful Representations of Life."
+END_EVENT
+
+# PME 10y
+BEGIN_EVENT
+	MONTH="9"
+	YEAR="2021"
+	DESCRIPTION="Sam Riesenfeld speaks at the PME 10-year Anniversary Celebration: Alumni and Industry Day"
+END_EVENT
+
+# AI+Science
+BEGIN_EVENT
+	MONTH="9"
+	YEAR="2021"
+	DESCRIPTION="Sam Riesenfeld speaks at the 2021 AI+Science Workshop hosted by the University of Chicago and the Weizmann Institute of Science."
+END_EVENT
+
+# Sam IBD
+BEGIN_EVENT
+	MONTH="4"
+	YEAR="2022"
+	DESCRIPTION="Sam Riesenfeld is appointed as secondary faculty to the Institute for Biophysical Dynamics."
 END_EVENT
