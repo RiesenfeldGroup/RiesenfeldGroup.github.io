@@ -8,4 +8,4 @@ jobs:
         with:
           python-version: '3.10'
       - run: rm -rf index.html happenings.html
-      - run: python3 format_happenings.py
+      - run: python format_happenings.py
