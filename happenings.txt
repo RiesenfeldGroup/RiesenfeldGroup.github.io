@@ -9,7 +9,7 @@ END_EVENT
 BEGIN_EVENT
 	MONTH="6"
 	YEAR="2022"
-	DESCRIPTION="<a href=https://www.nature.com/articles/s43018-022-00397-8>Paper</a> in <i>Nature Cancer</i> by Hanna Hieromnimon leverages multiomics to create holistic picture of ovarian cancer."
+	DESCRIPTION="<a href=https://www.nature.com/articles/s43018-022-00397-8>Commentary</a> in <i>Nature Cancer</i> by Hanna Hieromnimon and Alex Pearson describes how multiomics can create a more holistic picture of ovarian cancer."
 END_EVENT
 
 # CDAC Discovery Challenge
