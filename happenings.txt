@@ -16,7 +16,7 @@ END_EVENT
 BEGIN_EVENT
 	MONTH="4"
 	YEAR="2021"
-	DESCRIPTION="Sam Riesenfeld is <a href=https://datascience.uchicago.edu/news/cdac-discovery-challenge-awardees-train-data-science-on-medicine-clean-water-and-education/>awarded</a> through the CDAC Discovery Challenge for the application of machine learning to targeted cancer therapy."
+	DESCRIPTION="Sam Riesenfeld is <a href=https://datascience.uchicago.edu/news/cdac-discovery-challenge-awardees-train-data-science-on-medicine-clean-water-and-education/>awarded</a> a CDAC Discovery Challenge grant for the application of machine learning to targeted cancer therapy."
 END_EVENT
 
 # Cancer Research Foundation 2021
