@@ -1,4 +1,12 @@
 How do I:
+--Edit any of the site pages?
+----The site pages are contained in:
+------index.html (home page)
+------people.html
+------projects.html
+------publications.html
+------happenings.html
+----Most of the site page .html files can be edited directly, however, it is IMPORTANT that index.html and happenings.html NOT be edited directly. In lieu of editing index.html, one should edit index_pre.html. And in lieu of editing happenings.html, one should either edit happenings_pre.html for aesthetic changes OR edit happenings.txt for adding events (see below)
 --Add new events to the newsfeed?
 	1) Open happenings.txt
 	2) Create a new entry in this .txt file. It should begin with "BEGIN_EVENT" and "END_EVENT" tags, and include "MONTH", "YEAR", and "DESCRIPTION" tags. The "MONTH" and "YEAR" tags are just used to sort the events and to display the month of the event; the "DESCRIPTION" field should be formatted HTML to be injected into a paragraph environment (i.e., <p>DESCRIPTION</p>).
