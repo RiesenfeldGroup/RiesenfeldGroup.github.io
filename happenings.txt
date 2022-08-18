@@ -1,0 +1,34 @@
+# Hope NSF
+BEGIN_EVENT
+	MONTH="4"
+	YEAR="2022"
+	DESCRIPTION="Hope Anderson is a 2022 NSF Graduate Research Fellowship! Congratulations!"
+END_EVENT
+
+# Hanna Nature
+BEGIN_EVENT
+	MONTH="6"
+	YEAR="2022"
+	DESCRIPTION="<a href=https://www.nature.com/articles/s43018-022-00397-8 style="color=#00cccc">Paper</a> in <i>Nature Cancer</i> by Hanna Hieromnimon leverages multiomics to create holistic picture of ovarian cancer."
+END_EVENT
+
+# CDAC Discovery Challenge
+BEGIN_EVENT
+	MONTH="4"
+	YEAR="2021"
+	DESCRIPTION="Samantha Riesenfeld is <a href=https://datascience.uchicago.edu/news/cdac-discovery-challenge-awardees-train-data-science-on-medicine-clean-water-and-education/ style="color=#00cccc">awarded</a> through the CDAC Discovery Challenge for the application of machine learning to targeted cancer therapy."
+END_EVENT
+
+# Cancer Research Foundation 2021
+BEGIN_EVENT
+	MONTH="3"
+	YEAR="2021"
+	DESCRIPTION="Samantha Riesenfeld is a <a href=https://pme.uchicago.edu/news/huanhuan-joyce-chen-and-samantha-riesenfeld-named-crf-young-investigators style="color:#00cccc">recipient</a> of a Cancer Research Foundation Young Investigator Award for research in application of machine learning techniques to personalized cancer treatment."
+END_EVENT
+
+# Welcome Joey
+BEGIN_EVENT
+	MONTH="2"
+	YEAR="2022"
+	DESCRIPTION="The Riesenfeld Group warmly welcomes Joey Federico as a new member!"
+END_EVENT
