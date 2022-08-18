@@ -7,5 +7,6 @@ jobs:
       - uses: actions/setup-python@v3
         with:
           python-version: '3.10'
-      - run: rm -rf index.html happenings.html
-      - run: python format_happenings.py
+      - run: |
+          rm -rf index.html happenings.html
+          python format_happenings.py
