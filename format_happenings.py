@@ -127,5 +127,5 @@ for date in event_dict.keys():
 		export_str += "<p>"+event.text+"</p>\n"
 
 with open("happenings_pre.html", "r") as file_pre:
-	with open("happenings.html, "w"") as file:
+	with open("happenings.html", "w") as file:
 		file.write(file_pre.read().replace("<!-- REPLACE ME -->", export_str))
