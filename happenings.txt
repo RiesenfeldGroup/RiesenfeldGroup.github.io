@@ -123,3 +123,10 @@ BEGIN_EVENT
 	YEAR="2022"
 	DESCRIPTION="Sam Riesenfeld is appointed as secondary faculty to the Institute for Biophysical Dynamics."
 END_EVENT
+
+# Frank Candidacy
+BEGIN_EVENT
+	MONTH="11"
+	YEAR="2020"
+	DESCRIPTION="Congratulations to Frank Gao for passing his candidacy exam!"
+END_EVENT
