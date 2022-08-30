@@ -3,24 +3,24 @@ How do I:
 ----The site pages are contained in:
 ------index.html (home page; DON'T EDIT; edit index_pre.html instead)
 ------people.html
-------projects.html
+------research.html
 ------publications.html
-------happenings.html (DON'T EDIT; edit happenings_pre.html instead)
-----Most of the site page .html files can be edited directly, however, it is IMPORTANT that index.html and happenings.html NOT be edited directly. In lieu of editing index.html, one should edit index_pre.html. And in lieu of editing happenings.html, one should either edit happenings_pre.html for aesthetic changes OR edit happenings.txt for adding events (see below)
-----If index_pre.html or happenings_pre.html are edited, the following line should be run before committing and pushing to GitHub:
-		./format_happenings.sh
+------news.html (DON'T EDIT; edit news_pre.html instead)
+----Most of the site page .html files can be edited directly, however, it is IMPORTANT that index.html and news.html NOT be edited directly. In lieu of editing index.html, one should edit index_pre.html. And in lieu of editing news.html, one should either edit news_pre.html for aesthetic changes OR edit news.txt for adding events (see below)
+----If index_pre.html or news_pre.html are edited, the following line should be run before committing and pushing to GitHub:
+		./format_news.sh
 --Add new events to the newsfeed?
-	1) Open happenings.txt
+	1) Open news.txt
 	2) Create a new entry in this .txt file. It should begin with "BEGIN_EVENT" and "END_EVENT" tags, and include "MONTH", "YEAR", and "DESCRIPTION" tags. The "MONTH" and "YEAR" tags are just used to sort the events and to display the month of the event; the "DESCRIPTION" field should be formatted HTML to be injected into a paragraph environment (i.e., <p>DESCRIPTION</p>).
 	3) Run the following commands from the terminal:
-		./format_happenings.sh
+		./format_news.sh
 		git pull
-		git add index.html happenings.html happenings.txt
+		git add index.html news.html news.txt
 		git commit -m "routine newsfeed update"
 		git push
 ----It is IMPORTANT to note the following about the newsfeed:
-------The events in happenings.txt do not have to be sorted in chronological order. Events are sorted and displayed in chronological order. This way, new events (even ones from long ago) can be appended to the end of happenings.txt without much thought.
-------Only a few of the events are displayed on the home page (the exact number is determined by the variable "n_displayed" in format_events.py). However, all events are displayed on the Happenings page on the site.
+------The events in news.txt do not have to be sorted in chronological order. Events are sorted and displayed in chronological order. This way, new events (even ones from long ago) can be appended to the end of news.txt without much thought.
+------Only a few of the events are displayed on the home page (the exact number is determined by the variable "n_displayed" in format_events.py). However, all events are displayed on the News page on the site.
 
 
 The rest of this document is dedicated to credits for the Escape Velocity template by HTML5 UP.

@@ -1,17 +1,17 @@
 import os
 from collections import OrderedDict
 
-with open("happenings.txt", "r") as file:
-	happenings_str = file.read()
+with open("news.txt", "r") as file:
+	news_str = file.read()
 
 begin = "BEGIN_EVENT"
 end = "END_EVENT"
 n_displayed = 4
 
-n_events = happenings_str.count(begin)
+n_events = news_str.count(begin)
 
 events_pre = []
-temp_str = happenings_str
+temp_str = news_str
 for j in range(n_events):
 	ind = temp_str.rfind(begin)
 	events_pre.append(temp_str[ind:])
@@ -115,7 +115,7 @@ with open("index_pre.html", "r") as file_pre:
 	with open("index.html", "w") as file:
 		file.write(file_pre.read().replace("<!-- REPLACE ME -->", export_str))
 
-### For happenings.html
+### For news.html
 export_str = ""
 
 for date in event_dict.keys():
@@ -126,6 +126,6 @@ for date in event_dict.keys():
 	for event in event_dict[date]:
 		export_str += "<p>"+event.text+"</p>\n"
 
-with open("happenings_pre.html", "r") as file_pre:
-	with open("happenings.html", "w") as file:
+with open("news_pre.html", "r") as file_pre:
+	with open("news.html", "w") as file:
 		file.write(file_pre.read().replace("<!-- REPLACE ME -->", export_str))
