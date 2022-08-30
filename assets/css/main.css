@@ -2272,6 +2272,7 @@ input, select, textarea {
 
 	#highlights .highlight {
 		text-align: center;
+		line-height: 0.0;
 	}
 
 		#highlights .highlight h3 {
