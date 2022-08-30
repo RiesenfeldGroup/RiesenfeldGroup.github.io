@@ -1,11 +1,11 @@
 How do I:
 --Edit any of the site pages?
 ----The site pages are contained in:
-------index.html (home page)
+------index.html (home page; DON'T EDIT; edit index_pre.html instead)
 ------people.html
 ------projects.html
 ------publications.html
-------happenings.html
+------happenings.html (DON'T EDIT; edit happenings_pre.html instead)
 ----Most of the site page .html files can be edited directly, however, it is IMPORTANT that index.html and happenings.html NOT be edited directly. In lieu of editing index.html, one should edit index_pre.html. And in lieu of editing happenings.html, one should either edit happenings_pre.html for aesthetic changes OR edit happenings.txt for adding events (see below)
 ----If index_pre.html or happenings_pre.html are edited, the following line should be run before committing and pushing to GitHub:
 		./format_happenings.sh

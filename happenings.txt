@@ -2,7 +2,7 @@
 BEGIN_EVENT
 	MONTH="4"
 	YEAR="2022"
-	DESCRIPTION="Hope Anderson is a 2022 NSF Graduate Research Fellowship! Congratulations!"
+	DESCRIPTION="Hope Anderson is a 2022 NSF Graduate Research Fellow! Congratulations!"
 END_EVENT
 
 # Hanna Nature
