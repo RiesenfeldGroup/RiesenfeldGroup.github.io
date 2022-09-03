@@ -2071,7 +2071,8 @@ input, select, textarea {
 		justify-content: center;
 		position: relative;
 		height: 24em;
-		background: url("../../images/icon_lab_tall.png") center center;
+		/* background: url("../../images/icon_lab_tall.png") center center; */
+		background: url("../../images/Icon_lab.2022-09-01-wide-textLR-forDarkBG-transpBG-300dpi.png") center cetner;
 		background-size: cover;
 		padding: 0;
 	}
