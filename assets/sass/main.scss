@@ -420,7 +420,8 @@
 
 		&.featured {
 			display: block;
-			width: 100%;
+			/*width: 100%;*/
+			width: 150px;
 			margin: 0 0 2em 0;
 		}
 	}
