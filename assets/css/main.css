@@ -1602,6 +1602,8 @@ input, select, textarea {
 		}
 
 		.image.left {
+			width: 50%;
+			display: flex;
 			float: left;
 			margin: 0 2em 2em 0;
 		}
