@@ -2074,7 +2074,7 @@ input, select, textarea {
 		position: relative;
 		height: 12em;
 		/* background: url("../../images/icon_lab_tall.png") center center; */
-		background: url("../../images/2022-09-01_banner_wide.png") center center;
+		background: url("../../images/2022-09-01_banner_smol.png") center center;
 		background-size: cover;
 		padding: 0;
 	}
