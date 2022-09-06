@@ -819,11 +819,11 @@
 		@include vendor('align-items', 'center');
 		@include vendor('justify-content', 'center');
 		position: relative;
-		/* height: 12em; */
-		height: 2in;
+		height: 12em;
 		/*background: url('../../images/icon_lab_tall.png') center center;*/
 		background: url('../../images/2022-09-01_banner_wide.png') center center;
-		background-size: cover;
+		/* background-size: cover; */
+		background-size: 2in;
 		padding: 0;
 
 		&:before {
