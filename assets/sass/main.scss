@@ -819,9 +819,10 @@
 		@include vendor('align-items', 'center');
 		@include vendor('justify-content', 'center');
 		position: relative;
-		height: 12em;
+		/* height: 12em; */
+		height: 2in;
 		/*background: url('../../images/icon_lab_tall.png') center center;*/
-		background: url('../../images/2022-09-01_banner_smol.png') center center;
+		background: url('../../images/2022-09-01_banner_wide.png') center center;
 		background-size: cover;
 		padding: 0;
 
