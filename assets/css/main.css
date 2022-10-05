@@ -1609,7 +1609,7 @@ input, select, textarea {
 		}
 
 		.image.centered {
-			width: 10vmin;
+			width: 50vmin;
 			/* display: block; */
 			display: flex;
 			/* margin: 0 0 2em 0; */
@@ -1618,7 +1618,8 @@ input, select, textarea {
 
 			.image.centered img {
 				margin: 0 auto;
-				width: auto;
+				/* width: auto; */
+				width: 50vmin;
 			}
 
 		.image.featured {
