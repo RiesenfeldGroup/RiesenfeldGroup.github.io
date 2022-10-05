@@ -2074,7 +2074,7 @@ input, select, textarea {
 		justify-content: center;
 		position: relative;
 		/* height: 24em; */
-		height: 36vmin;
+		height: 48vmin;
 		/* background: url("../../images/icon_lab_tall.png") center center; */
 		background: url("../../images/2022-09-01_banner_wide.png") center center;
 		/* background-size: cover; */
