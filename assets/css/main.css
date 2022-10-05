@@ -1614,16 +1614,16 @@ input, select, textarea {
 			display: flex;
 			/* margin: 0 0 2em 0; */
 			/* margin: 0 0 0 0; */
-			/* margin-left: auto;
-			margin-right: auto; */
+			margin-left: auto;
+			margin-right: auto;
 			justify-content: center;
 		}
 
 			.image.centered img {
 				/* margin: 0 auto; */
 				/* width: auto; */
-				/* margin-left: auto;
-				margin-right: auto; */
+				margin-left: auto;
+				margin-right: auto;
 				width: 75vmin;
 				justify-content: center;
 			}
