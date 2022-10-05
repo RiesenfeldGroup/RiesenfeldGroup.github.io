@@ -1609,7 +1609,7 @@ input, select, textarea {
 		}
 
 		.image.centered {
-			width: 50%;
+			width: 50vmin;
 			display: block;
 			margin: 0 0 2em 0;
 		}
