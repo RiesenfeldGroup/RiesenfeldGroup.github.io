@@ -1613,12 +1613,16 @@ input, select, textarea {
 			/* display: block; */
 			display: flex;
 			/* margin: 0 0 2em 0; */
-			margin: 0 0 0 0;
+			/* margin: 0 0 0 0; */
+			margin-left: auto;
+			margin-right: auto;
 		}
 
 			.image.centered img {
-				margin: 0 auto;
+				/* margin: 0 auto; */
 				/* width: auto; */
+				margin-left: auto;
+				margin-right: auto;
 				width: 50vmin;
 			}
 
