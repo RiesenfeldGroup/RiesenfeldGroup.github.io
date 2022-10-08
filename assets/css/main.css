@@ -1635,6 +1635,7 @@ input, select, textarea {
 			/* margin: 0 0 2em 0; */
 			margin-left: auto;
 			margin-right: auto;
+			margin-bottom: 10vmin;
 			justify-content: center;
 		}
 
