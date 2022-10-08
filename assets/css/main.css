@@ -2026,7 +2026,7 @@ input, select, textarea {
 		.wrapper.style1 {
 			/* background: #e97770 url("images/overlay.png"); */
 			/* background: #990000 url("images/overlay.png"); */
-			background: #c7c7bf url("images/overlay.png");
+			background: #474747 url("images/overlay.png");
 			/* color: #000;
 			color: rgba(0, 0, 0, 0.75); */
 			color: #990000;
@@ -2035,7 +2035,7 @@ input, select, textarea {
 			.wrapper.style1 .title {
 				/* background: #e97770 url("images/overlay.png"); */
 				/* background: #990000 url("images/overlay.png"); */
-				background: #c7c7bf url("images/overlay.png");
+				background: #474747 url("images/overlay.png");
 				/* color: #000; */
 				color: #990000;
 			}
