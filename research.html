@@ -35,40 +35,51 @@
 				</section>
 
 			<!-- Main -->
-				<div id="main" class="wrapper style1">
+				<div id="intro" class="wrapper style1">
 					<div class="title">Research</div>
 					<div class="container">
+						<p>My research group seeks to understand complex biological systems through genomic data science. Focusing on immune-mediated processes in barrier tissues, inflammation, and cancer, we use domain-informed machine learning techniques to elicit cellular and molecular insights from transcriptomic or multimodal data.</p>
+					</div>
+				</div>
 
+				<div id="intro" class="wrapper style2">
+					<div class="title">Integrating histology and 'omics data to discover better cancer biomarkers</div>
 						<!-- Content -->
 							<!-- Integrating histology and 'omics data to discover better cancer biomarkers  -->
 							<div id="content">
 								<article class="box post">
-									<header class="style1">
+									<!-- <header class="style1">
 										<h2>Integrating histology and 'omics data to discover better cancer biomarkers</h2>
 										<!-- <br class="mobile-hide" /> -->
-									</header>
+									</header> -->
 									<a href="#" class="image featured">
 										<img src="images/MRF_graphabs.png" alt="" />
 									</a>
 									<p class="style1">While many therapies for cancer enter clinical development, very few see FDA approval. Our work seeks to understand the latent biology underlying cancer by combining <b>information-rich genomic</b> and <b>clinically-available histologic</b> data to identify better biomarkers for treatment response.</p>
 								</article>
 							</div>
+				</div>
 
 							<!-- Hope and Joey's immune topic -->
+				<div id="intro" class="wrapper style1">
+					<div class="title">Complex cellular interactions in barrier tissue immunity</div>
 							<div id="content">
 								<article class="box post">
-									<header class="style1">
+									<!-- <header class="style1">
 										<h2>Complex cellular interactions in barrier tissue immunity</h2>
 										<!-- <br class="mobile-hide" /> -->
-									</header>
+									</header> -->
 									<a href="#" class="image featured">
 										<img src="images/MRF_graphabs.png" alt="" />
 									</a>
 									<p class="style1">There is growing recognition that the critical immune functions of barrier tissues, such as the gut, lungs, and skin, depend not only on immune cells but also on complex interactions involving microbes and other cell types, such as epithelial cells and neurons. Dissecting these interactions is a major challenge, requiring a combination of systematic transcriptomic analyses and targeted, hypothesis-driven experiments. Using scRNA-seq data of murine lung ILCs, my postdoctoral research uncovered neuroimmune signaling pathways that acutely modulate ILC allergic inflammatory responses (Nature, 2017; Immunity, 2019). Turning recently to neuronal-epithelial interactions, in a study on which I am second-to-last author (and lead computational author; accepted by Cell, 2022), we show that signaling from nociceptor neurons to intestinal goblet cells is needed for mucus secretion and gut protection. More generally, cellular interactions in the gut are shaped by and dependent on regionalization of bacterial colonization and immunity along the intestinal tract. Intestinal regionalization is critical for tissue and immune functions, but its underlying mechanisms are not well understood. In a study, on which I am a co-corresponding author (in review, Immunity, 2022), we show that in mice, regional epithelial expression of the transcription factor GATA4 prevents adherent bacterial colonization and inflammation in the proximal small intestine by regulating retinol metabolism and luminal IgA. In active celiac patients with villous atrophy, lower GATA4 expression is common and associated with transcriptional changes like those observed in mice, indicating the potential relevance of the study to human health. We are now analyzing the impact of epithelial GATA4 expression in Peyer’s patches, which are gut-associated lymphoid tissues, to investigate how GATA4 so dramatically affects tissue immunity.</p>
 								</article>
 							</div>
+				</div>
 
 							<!-- Dynamics -->
+				<div id="intro" class="wrapper style2">
+					<div class="title">System-wide transcriptional dynamics</div>
 							<div id="content">
 								<article class="box post">
 									<header class="style1">
@@ -81,8 +92,11 @@
 									<p class="style1">RNA velocity is unique in revealing directions and flow patterns of transcriptional changes, even within a time point, making it a potentially powerful tool. Yet, a lack of robustness and accuracy has largely restricted applications to highly structured development and cell cycle contexts. To empower RNA velocity for more general systems, including immune responses, we developed a new approach that reflects our finding that parameter estimation depends critically on the input cells and genes. While these are typically globally selected, we use probabilistic topic models to infer the active processes and the cells and genes specifically relevant for estimating process-specific velocity parameters. We also improve the accuracy of parameter estimates by efficiently fitting unsmoothed, integer counts to a physical model for transcriptional bursting.</p>
 								</article>
 							</div>
+				</div>
 
 							<!-- Learning latent structure in 'omics data  -->
+				<div id="intro" class="wrapper style1">
+					<div class="title">Latent-factor multi-omic analysis of continuous immune-cell states</div>
 							<div id="content">
 								<article class="box post">
 									<header class="style1">
@@ -95,8 +109,11 @@
 									<p class="style1">Immune cells, such as innate lymphoid cells (ILCs), T helper cells, and macrophages, are classified traditionally into discrete subsets, based on their expression of specific transcription factors and effector cytokines. The lens of scRNA-seq has revealed a more complex spectrum of immune cell states and functional plasticity across states. Standard, clustering-based analyses have limited power to model such phenomena, though doing so can highlight key features of homeostasis and disease. In a study using psoriasis mouse models, on which I am both co-first and co-corresponding author (Nature, 2021), our analysis of a time course of scRNA-seq skin ILCs suggests that pathogenic cells arise from across a dense transcriptional continuum via multiple transcriptional trajectories, which were experimentally validated. We represented the continuum using a probabilistic topic model, a Bayesian form of non-negative matrix factorization, also known as an admixture model. Simple, common in text mining and population genetics, topic modeling improves the power and interpretability of downstream analyses, relative to other methods, in many of our applications. Thus, it plays a role in several ongoing projects (e.g., I-A, I-B, II-B). For example, we are analyzing single-cell multi-omic data of human γδ T cells, collected by a collaborator, to study how thymic development and T-cell receptors (TCRs) signaling of these unconventional T cells relate to their immune functions. Our data suggest that thymic γδ T cells exhibit a wide range of transcriptional states but little clonal expansion, whereas methods for conventional TCRs focus on clonal analysis. Hence, we developed an approach to learn which, if any, TCR features associate with topic-model derived latent factor values. Applying it decoded a complicated dataset and spurred follow-up experiments of compelling hypotheses. We are preparing a manuscript on which I am co-corresponding author to submit in Spring 2023.</p>
 								</article>
 							</div>
+				</div>
 
 							<!-- Manifolds  -->
+				<div id="intro" class="wrapper style2">
+					<div class="title">Learning Riemannian manifolds from point clouds</div>
 							<div id="content">
 								<article class="box post">
 									<header class="style1">
