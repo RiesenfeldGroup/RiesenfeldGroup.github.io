@@ -1,3 +1,7 @@
+This README is intended to help members of the Riesenfeld Group make edits to the lab website. Everything above the double-dashed line gives instructions on editing; everything below the double-dashed line is copyright information concerning the HTML5 UP template used to create this site.
+
+The instructions here assume basic familiarity with using git from the terminal. For simple and easy instructions on how to get a minimal setup for this, see this Sitepoint tutorial by Michael Wanyoike: (https://www.sitepoint.com/github-cli/). Using git in this way will also require you to set up Personal Access Tokens through Github; instructions for this can be found here: (https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token).
+
 How do I:
 --Edit any of the site pages?
 ----The site pages are contained in:
