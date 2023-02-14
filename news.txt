@@ -86,7 +86,7 @@ END_EVENT
 BEGIN_EVENT
 	MONTH="6"
 	YEAR="2022"
-	DESCRIPTION="Congratulations to Kyle Ruark and Alexis Vitiello for earning their undergraduate degrees! They will be missed."
+	DESCRIPTION="Congratulations to Kyle Ruark and Alexis Vitiello for earning their undergraduate degrees! We will miss them."
 END_EVENT
 
 # Kyle Harvard
