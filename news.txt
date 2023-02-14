@@ -1,9 +1,9 @@
 # Joey Qualifying Exam
-#BEGIN_EVENT
-#	MONTH="2"
-#	YEAR="2022"
-#	DESCRIPTION="Joey Federico defends his qualifying exam and achieves PhD candidacy."
-#END_EVENT
+BEGIN_EVENT
+	MONTH="2"
+	YEAR="2022"
+	DESCRIPTION="Joey Federico defends his qualifying exam and achieves PhD candidacy."
+END_EVENT
 
 # Sam Joseph Immunity
 BEGIN_EVENT
