@@ -1,7 +1,7 @@
 # Joey Qualifying Exam
 BEGIN_EVENT
 	MONTH="2"
-	YEAR="2022"
+	YEAR="2023"
 	DESCRIPTION="Joey Federico defends his qualifying exam and achieves PhD candidacy."
 END_EVENT
 
