@@ -9,7 +9,7 @@
 BEGIN_EVENT
 	MONTH="1"
 	YEAR="2023"
-	DESCRIPTION="Sam Riesenfeld, Joseph Sifakis, and coauthors publish in <i>Immunity</i> on how <a href=https://www.cell.com/immunity/fulltext/S1074-7613(22)00645-8>GATA4 regionalizes intestinal metabolism and barrier function to prevent immunopathology."
+	DESCRIPTION="Sam Riesenfeld, Joseph Sifakis, and coauthors publish in <i>Immunity</i> on how <a href=https://www.cell.com/immunity/fulltext/S1074-7613(22)00645-8>GATA4 regionalizes intestinal metabolism and barrier function to prevent immunopathology.</a>"
 END_EVENT
 
 # Hanna Microsoft
