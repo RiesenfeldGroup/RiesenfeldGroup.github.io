@@ -76,12 +76,24 @@
 								<article class="box post">
 									<header class="style1">
 										<h2>System-wide transcriptional dynamics</h2>
+										<h3> Frank Gao </h3>
 										<!-- <br class="mobile-hide" /> -->
 									</header>
 									<a href="#" class="image featured">
 										<img src="images/RNA_velocity_221111.png" alt="" />
 									</a>
-									<p class="style1">RNA velocity is unique in revealing directions and flow patterns of transcriptional changes, even within a time point, making it a potentially powerful tool. Yet, a lack of robustness and accuracy has largely restricted applications to highly structured development and cell cycle contexts. To empower RNA velocity for more general systems, including immune responses, we developed a new approach that reflects our finding that parameter estimation depends critically on the input cells and genes. While these are typically globally selected, we use probabilistic topic models to infer the active processes and the cells and genes specifically relevant for estimating process-specific velocity parameters. We also improve the accuracy of parameter estimates by efficiently fitting unsmoothed, integer counts to a physical model for transcriptional bursting.</p>
+									<p class="style1">
+										RNA velocity can reveal directions and flow patterns of transcriptional changes, even within a single 
+										scRNA-seq time point, making it a potentially powerful tool. Yet, a lack of robustness and accuracy 
+										has largely restricted applications to highly structured development and cell cycle contexts. To 
+										empower RNA velocity for more general systems, including immune responses, we developed a new approach 
+										that reflects our finding that parameter estimation depends critically on the input cells and genes. 
+										While these are typically globally selected, we use probabilistic topic models, a type of latent 
+										factorization, to infer the cells and genes specifically relevant for estimating process-specific 
+										velocity parameters. We are now developing new methods that account for the stochastic nature of 
+										lineage commitment, and we are investigating how to use RNA velocity to gain mechanistic insights into 
+										cell fate decisions.
+									</p>
 								</article>
 							</div>
 
@@ -90,26 +102,54 @@
 								<article class="box post">
 									<header class="style1">
 										<h2>Integrating histology and 'omics data to discover better cancer biomarkers</h2>
+										<h3> Hanna Hieromnimon </h3>
 										<!-- <br class="mobile-hide" /> -->
 									</header>
 									<a href="#" class="image featured">
 										<img src="images/MRF_graphabs.png" alt="" />
 									</a>
-									<p class="style1">Improving cancer treatment relies on understanding the variables that drive key biological processes in cancer. Studies have used molecular ‘omic data to predict diagnostic features, such as cancer type and immune phenotype, but the cost and time of measuring gene expression impedes discovery of clinical transcriptional biomarkers. Recent studies show that molecular information is encoded in histology images, which are collected routinely. For example, deep learning models can be trained to predict prognostic molecular features, such as genomic alterations, microsatellite instability, and gene expression, directly from histology. We are motivated by the possibility of developing practical clinical biomarkers by jointly leveraging genomics and histology using squamous cell carcinoma (SCC) samples, encompassing lung, cervical, and head and neck cancer types. There is a critical unmet need for comprehensive biomarkers that capture the complex biological processes underlying the cancer landscape. Deep learning-based histology biomarkers offer a portable, cost effective, and accessible opportunity to infer genomic information from histology anywhere in the world. Exploring the histology feature space and connecting histologic features with biomarker prediction allows for the requisite explainability for clinical integration.</p>
+									<p class="style1">
+										Improving cancer treatment relies on understanding the variables that drive key biological 
+										processes in cancer. Studies have used molecular ‘omic data to predict diagnostic features, such as 
+										cancer type and immune phenotype, but the cost and time of measuring gene expression impedes discovery 
+										of clinical transcriptional biomarkers. Recent studies show that molecular information is encoded in 
+										histology images, which are collected routinely. For example, deep learning models can be trained to 
+										predict prognostic molecular features, such as genomic alterations, microsatellite instability, and 
+										gene expression, directly from histology. We are motivated by the possibility of developing practical 
+										clinical biomarkers by jointly leveraging genomics and histology using squamous cell carcinoma (SCC) 
+										samples, encompassing lung, cervical, and head and neck cancer types. There is a critical unmet need 
+										for comprehensive biomarkers that capture the complex biological processes underlying the cancer landscape. 
+										Deep learning-based histology biomarkers offer a portable, cost effective, and accessible opportunity 
+										to infer genomic information from histology anywhere in the world. Exploring the histology feature space 
+										and connecting histologic features with biomarker prediction allows for the requisite explainability 
+										for clinical integration.
+									</p>
 								</article>
 							</div>
 
-							<!-- Hope and Joey's immune topic -->
+							<!--Barrier immunity -->
 							<div id="content">
 								<article class="box post">
 									<header class="style1">
 										<h2>Complex cellular interactions in barrier tissue immunity</h2>
+										<h3> Joseph Sifakis and Joey Federico </h3>
 										<!-- <br class="mobile-hide" /> -->
 									</header>
 									<a href="#" class="image featured">
 										<img src="images/mucosal_immunology_2.png" alt="" />
 									</a>
-									<p class="style1">There is growing recognition that the critical immune functions of barrier tissues, such as the gut, lungs, and skin, depend not only on immune cells but also on complex interactions involving microbes and other cell types, such as epithelial cells and neurons. Dissecting these interactions is a major challenge, requiring a combination of systematic transcriptomic analyses and targeted, hypothesis-driven experiments. Using scRNA-seq data of murine lung ILCs, my postdoctoral research uncovered neuroimmune signaling pathways that acutely modulate ILC allergic inflammatory responses (Nature, 2017; Immunity, 2019). Turning recently to neuronal-epithelial interactions, in a study on which I am second-to-last author (and lead computational author; accepted by Cell, 2022), we show that signaling from nociceptor neurons to intestinal goblet cells is needed for mucus secretion and gut protection. More generally, cellular interactions in the gut are shaped by and dependent on regionalization of bacterial colonization and immunity along the intestinal tract. Intestinal regionalization is critical for tissue and immune functions, but its underlying mechanisms are not well understood. In a study, on which I am a co-corresponding author (in review, Immunity, 2022), we show that in mice, regional epithelial expression of the transcription factor GATA4 prevents adherent bacterial colonization and inflammation in the proximal small intestine by regulating retinol metabolism and luminal IgA. In active celiac patients with villous atrophy, lower GATA4 expression is common and associated with transcriptional changes like those observed in mice, indicating the potential relevance of the study to human health. We are now analyzing the impact of epithelial GATA4 expression in Peyer’s patches, which are gut-associated lymphoid tissues, to investigate how GATA4 so dramatically affects tissue immunity.</p>
+									<p class="style1">
+										There is growing recognition that the critical immune functions of barrier tissues, such as the 
+										gut, lungs, and skin, depend not only on immune cells but also on complex interactions involving 
+										microbes and other cell types. Dissecting these interactions is a major challenge, requiring a 
+										combination of systematic transcriptomic analyses and targeted, hypothesis-driven experiments. 
+										We have previously shown that in the gut, neuronal signaling is needed for mucus secretion 
+										(accepted, Cell, 2022), and more generally, regional differences in epithelial cells prevent 
+										adherent bacterial colonization and inflammation (Immunity, 2023). We are now studying how 
+										gut-associated lymphoid tissues, such as Peyer’s patches, affect gut regionalization and barrier 
+										immunity. Additionally, we are using RNA-seq to probe the mechanisms by which gut-resident 
+										intraepithelial lymphocytes respond to cytokines implicated in autoimmunity.
+									</p>
 								</article>
 							</div>
 						
@@ -118,12 +158,24 @@
 								<article class="box post">
 									<header class="style1">
 										<h2>Learning Riemannian manifolds from point clouds</h2>
+										<h3> Ryan Robinett </h3>
 										<!-- <br class="mobile-hide" /> -->
 									</header>
 									<a href="#" class="image featured">
 										<img src="images/MRF_graphabs.png" alt="" />
 									</a>
-									<p class="style1">ScRNA-seq data highlights limitations of contemporary, dimensionality reduction and manifold learning techniques. Using simple test cases, studies have shown that key features of the Riemannian metric and topological structure are sacrificed by commonly used methods, including uniform manifold approximation and projection (UMAP), t-distributed stochastic neighborhood embedding (tSNE), and Isomap. Recent work by Sritharan et al. (PNAS, 2021) addresses this problem by describing a method that uses local quadratic approximations to learn Riemannian manifolds from point clouds, including scRNA-seq datasets, that statistically preserve pointwise scalar curvature. Building on the approach, we developed a data structure and associated algorithms for constructing a finite atlas, a mathematical structure involving local neighborhood coordinate charts, which can encode any topological manifold with compact closure. In each neighborhood, a local quadratic fit robustly approximates the Riemannian metric. Moreover, the amenability of the atlas structure to Riemannian optimization techniques opens the door to many applications. Currently, we are testing the atlas construct in (non-biological) data settings with known Riemannian manifold structure. Our next objective is to understand which differential-geometric features of scRNA-seq data can be learned with the atlas-graph structure and explore their biological significance. We expect to submit a manuscript of the theoretical and initial empirical results by spring 2023. This work led to my role as Senior Personnel in a UChicago-Northwestern proposal for an NSF-Simons National Institute for Theory and Mathematics in Biology, submitted in Summer 2022.</p>
+									<p class="style1">
+										Single-cell RNA-seq data highlights limitations of contemporary dimensionality reduction and 
+										manifold learning techniques. Using simple test cases, studies have shown that key features of 
+										the Riemannian metric and topological structure are sacrificed by commonly used methods such as 
+										uniform manifold approximation and projection (UMAP), t-distributed stochastic neighborhood 
+										embedding (tSNE), and Isomap. To preserve more structure, we have developed a data structure and 
+										associated algorithms for constructing a finite atlas, a mathematical structure involving local 
+										neighborhood coordinate charts, which can encode any topological manifold with compact closure. 
+										Currently, we are testing the atlas construct in (non-biological) data settings with known Riemannian 
+										manifold structure. Next, we plan to investigate which differential-geometric features of scRNA-seq 
+										data can be learned with the atlas-graph structure and explore their biological significance.
+									</p>
 								</article>
 							</div>
 					</div>
