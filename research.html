@@ -46,6 +46,7 @@
 								<article class="box post">
 									<header class="style1">
 										<h2>Latent-factor multi-omic analysis of continuous immune-cell states</h2>
+										<h3> Hope Anderson, Frank Gao, Hanna Hieromnimon, Joseph Sifakis </h3>
 										<!-- <br class="mobile-hide" /> -->
 									</header>
 									<a href="#" class="image featured">
@@ -60,7 +61,6 @@
 										cells and genes to have a gradient of membership in different programs. These methods improve the power and 
 										interpretability of downstream analyses in many of our applications. Thus, they play a role in several ongoing projects, 
 										including the following:
-										
 										<ul style=“list-style-type:disc”>
 											<li> Studying how the thymic development and T-cell receptor (TCR) signaling of human γδ T cells relate to their immune function </li>
 											<li> Adapting methods to learn interpretable, interconnected gene programs </li>
@@ -68,6 +68,20 @@
 											<li> Integrating histology and ‘omics data to discover better cancer biomarkers (discussed below) </li>
 										</ul>
 									</p>
+								</article>
+							</div>
+					
+						<!-- Dynamics -->
+							<div id="content">
+								<article class="box post">
+									<header class="style1">
+										<h2>System-wide transcriptional dynamics</h2>
+										<!-- <br class="mobile-hide" /> -->
+									</header>
+									<a href="#" class="image featured">
+										<img src="images/RNA_velocity_221111.png" alt="" />
+									</a>
+									<p class="style1">RNA velocity is unique in revealing directions and flow patterns of transcriptional changes, even within a time point, making it a potentially powerful tool. Yet, a lack of robustness and accuracy has largely restricted applications to highly structured development and cell cycle contexts. To empower RNA velocity for more general systems, including immune responses, we developed a new approach that reflects our finding that parameter estimation depends critically on the input cells and genes. While these are typically globally selected, we use probabilistic topic models to infer the active processes and the cells and genes specifically relevant for estimating process-specific velocity parameters. We also improve the accuracy of parameter estimates by efficiently fitting unsmoothed, integer counts to a physical model for transcriptional bursting.</p>
 								</article>
 							</div>
 
@@ -96,20 +110,6 @@
 										<img src="images/mucosal_immunology_2.png" alt="" />
 									</a>
 									<p class="style1">There is growing recognition that the critical immune functions of barrier tissues, such as the gut, lungs, and skin, depend not only on immune cells but also on complex interactions involving microbes and other cell types, such as epithelial cells and neurons. Dissecting these interactions is a major challenge, requiring a combination of systematic transcriptomic analyses and targeted, hypothesis-driven experiments. Using scRNA-seq data of murine lung ILCs, my postdoctoral research uncovered neuroimmune signaling pathways that acutely modulate ILC allergic inflammatory responses (Nature, 2017; Immunity, 2019). Turning recently to neuronal-epithelial interactions, in a study on which I am second-to-last author (and lead computational author; accepted by Cell, 2022), we show that signaling from nociceptor neurons to intestinal goblet cells is needed for mucus secretion and gut protection. More generally, cellular interactions in the gut are shaped by and dependent on regionalization of bacterial colonization and immunity along the intestinal tract. Intestinal regionalization is critical for tissue and immune functions, but its underlying mechanisms are not well understood. In a study, on which I am a co-corresponding author (in review, Immunity, 2022), we show that in mice, regional epithelial expression of the transcription factor GATA4 prevents adherent bacterial colonization and inflammation in the proximal small intestine by regulating retinol metabolism and luminal IgA. In active celiac patients with villous atrophy, lower GATA4 expression is common and associated with transcriptional changes like those observed in mice, indicating the potential relevance of the study to human health. We are now analyzing the impact of epithelial GATA4 expression in Peyer’s patches, which are gut-associated lymphoid tissues, to investigate how GATA4 so dramatically affects tissue immunity.</p>
-								</article>
-							</div>
-
-							<!-- Dynamics -->
-							<div id="content">
-								<article class="box post">
-									<header class="style1">
-										<h2>System-wide transcriptional dynamics</h2>
-										<!-- <br class="mobile-hide" /> -->
-									</header>
-									<a href="#" class="image featured">
-										<img src="images/RNA_velocity_221111.png" alt="" />
-									</a>
-									<p class="style1">RNA velocity is unique in revealing directions and flow patterns of transcriptional changes, even within a time point, making it a potentially powerful tool. Yet, a lack of robustness and accuracy has largely restricted applications to highly structured development and cell cycle contexts. To empower RNA velocity for more general systems, including immune responses, we developed a new approach that reflects our finding that parameter estimation depends critically on the input cells and genes. While these are typically globally selected, we use probabilistic topic models to infer the active processes and the cells and genes specifically relevant for estimating process-specific velocity parameters. We also improve the accuracy of parameter estimates by efficiently fitting unsmoothed, integer counts to a physical model for transcriptional bursting.</p>
 								</article>
 							</div>
 						
