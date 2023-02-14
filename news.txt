@@ -1,3 +1,24 @@
+# Joey Qualifying Exam
+#BEGIN_EVENT
+#	MONTH="2"
+#	YEAR="2022"
+#	DESCRIPTION="Joey Federico defends his qualifying exam and achieves PhD candidacy."
+#END_EVENT
+
+# Sam Joseph Immunity
+BEGIN_EVENT
+	MONTH="1"
+	YEAR="2023"
+	DESCRIPTION="Sam Riesenfeld, Joseph Sifakis, and coauthors publish in <i>Immunity</i> on how <a href=https://www.cell.com/immunity/fulltext/S1074-7613(22)00645-8>GATA4 regionalizes intestinal metabolism and barrier function to prevent immunopathology."
+END_EVENT
+
+# Hanna Microsoft
+BEGIN_EVENT
+	MONTH="9"
+	YEAR="2022"
+	DESCRIPTION="Congratulations to Hanna on receiving a Microsoft Research Fellowship!"
+END_EVENT
+
 # Hope NSF
 BEGIN_EVENT
 	MONTH="4"
